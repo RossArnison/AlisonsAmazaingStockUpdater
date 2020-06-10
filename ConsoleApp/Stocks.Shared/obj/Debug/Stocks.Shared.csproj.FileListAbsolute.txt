@@ -1,0 +1,12 @@
+C:\Users\ross\OneDrive\Desktop\TechnicalTest\ConsoleApp\Stocks.Shared\bin\Debug\Stocks.Shared.dll
+C:\Users\ross\OneDrive\Desktop\TechnicalTest\ConsoleApp\Stocks.Shared\bin\Debug\Stocks.Shared.pdb
+C:\Users\ross\OneDrive\Desktop\TechnicalTest\ConsoleApp\Stocks.Shared\obj\Debug\Stocks.Shared.csprojResolveAssemblyReference.cache
+C:\Users\ross\OneDrive\Desktop\TechnicalTest\ConsoleApp\Stocks.Shared\obj\Debug\Stocks.Shared.csproj.CoreCompileInputs.cache
+C:\Users\ross\OneDrive\Desktop\TechnicalTest\ConsoleApp\Stocks.Shared\obj\Debug\Stocks.Shared.dll
+C:\Users\ross\OneDrive\Desktop\TechnicalTest\ConsoleApp\Stocks.Shared\obj\Debug\Stocks.Shared.pdb
+I:\TechnicalTest\ConsoleApp\Stocks.Shared\bin\Debug\Stocks.Shared.dll
+I:\TechnicalTest\ConsoleApp\Stocks.Shared\bin\Debug\Stocks.Shared.pdb
+I:\TechnicalTest\ConsoleApp\Stocks.Shared\obj\Debug\Stocks.Shared.csprojAssemblyReference.cache
+I:\TechnicalTest\ConsoleApp\Stocks.Shared\obj\Debug\Stocks.Shared.csproj.CoreCompileInputs.cache
+I:\TechnicalTest\ConsoleApp\Stocks.Shared\obj\Debug\Stocks.Shared.dll
+I:\TechnicalTest\ConsoleApp\Stocks.Shared\obj\Debug\Stocks.Shared.pdb
