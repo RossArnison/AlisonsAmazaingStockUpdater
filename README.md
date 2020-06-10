@@ -1,0 +1,2 @@
+# AlisonsAmazaingStockUpdater
+Technical Test
