@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Stocks.Shared
 {
-    public class ItemDto
+    public class ItemDto : BaseDto
     {
         public int Id { get; set; }
         public string Name { get; set; }

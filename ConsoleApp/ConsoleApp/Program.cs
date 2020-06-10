@@ -44,7 +44,7 @@ namespace ConsoleApp
             return inputList;
         }
 
-        private static void DayProgressionLoop(StockManager stockManager)
+        private static void DayProgressionLoop(IStockManager stockManager)
         {
             Console.WriteLine($"{Environment.NewLine}Do you want to progress the day?");
             var input = Console.ReadLine();

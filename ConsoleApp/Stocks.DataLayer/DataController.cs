@@ -1,32 +1,29 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 using Newtonsoft.Json;
+using Stocks.Interface.DataLayer;
 using Stocks.Shared;
 using Stocks.Shared.TestHelpers;
 using Stocks.Shared.TestHelpers.Interface;
 
 namespace Stocks.DataLayer
 {
-    public class DataController
+    public class DataController : IDataController
     {
         private const string TableFolder = "DataFiles";
 
         private const string StocksTable = "Stocks.json";
         private const string ItemsInStockTable = "ItemsInStock.json";
         private const string QualityModifiersTable = "ChangingQualityModifiers.json";
-        
+
         public DataController()
         {
             File = new FileController();
         }
 
         public IFile File { get; set; }
-        
+
         public IEnumerable<StockDto> GetStocks()
         {
             return DeserializeDataObject<StockDto>(StocksTable);

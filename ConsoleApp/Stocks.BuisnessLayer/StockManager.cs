@@ -2,14 +2,15 @@
 using System.Collections.Generic;
 using System.Linq;
 using Stocks.DataLayer;
+using Stocks.Interface.DataLayer;
 using Stocks.Shared;
 using Stocks.Shared.TestHelpers.Interface;
 
 namespace Stocks.BuisnessLayer
 {
-    public class StockManager
+    public class StockManager : IStockManager
     {
-        private DataController _controller;
+        private IDataController _controller;
         private DateTime _today;
 
         public StockManager()
@@ -42,7 +43,7 @@ namespace Stocks.BuisnessLayer
                     dto.SellByDates = _today.AddDays(daysTillOff);
                     dto.Quality = currentQuality;
                 }
-                
+
                 stocks.Add(dto);
             }
 

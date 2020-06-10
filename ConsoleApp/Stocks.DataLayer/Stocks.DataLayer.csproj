@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="DataController.cs" />
     <Compile Include="DefaultValues.cs" />
+    <Compile Include="Interface\IDataController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
